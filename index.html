@@ -213,7 +213,7 @@
             display: block;
         }
 
-        /* 2023 */
+        /* 2022 */
         .course {
             cursor: pointer;
         }
@@ -264,6 +264,61 @@
         }
 
         body.popup-active-3 .popup-overlay-3 {
+            display: block;
+        }
+
+
+        /* 2023 */
+        .course {
+            cursor: pointer;
+        }
+
+        .popup-overlay-4 {
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            display: none;
+
+        }
+
+        .popup-4 {
+
+            position: fixed;
+            top: -350%;
+            left: 50%;
+            border-radius: 50px;
+            width: 80%;
+            height: 80%;
+            transform: translate(-50%, -50%);
+            background: #f5f5f5;
+            font-family: "Raleway";
+            padding: 20px;
+            overflow-y: scroll;
+
+
+        }
+
+        .popup-4 .popup-close-4 {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: rgba(156, 156, 156,0.8);
+            
+            padding: 10px;
+            border-radius: 10px;
+            cursor: pointer;
+
+        }
+
+        body.popup-active-4 .popup-4 {
+            top: 50%;
+            scroll-behavior: smooth;
+        }
+
+        body.popup-active-4 .popup-overlay-4 {
             display: block;
         }
 
@@ -581,6 +636,32 @@
 
 
 
+            
+
+
+            
+
+
+            
+
+
+            
+
+
+
+            <div class="popup-close-2">&times;</div>
+        </div>
+
+
+        <!--***************course 2023*******************  -->
+        <div class="toggle" id="toggle-3">
+            <div class="course" id="open-popup-btn-3">
+                <h1 class="top-heading">Courses Completed in 2022</h1>
+            </div>
+        </div>
+        <div class="popup-overlay-3"></div>
+        <div class="popup-3">
+
             <h2 class="heading">94- IIRS Outreach Programme on Overview of Geoprocessing using Python</h2>
             <ul>
                 <li><a target="blank" href="">January 17- 28, 2022</a></li>
@@ -594,7 +675,6 @@
                         href="https://drive.google.com/file/d/1q8OQ21P0j86HUJUsIZnTmsTSrHur65N8/view?usp=sharing">Participated
                         Students</a></li>
             </ul>
-
 
             <h2 class="heading">98- IIRS Outreach Programme on Artificial Intelligence (AI) for Earth</h2>
             <ul>
@@ -613,14 +693,12 @@
                         Students</a></li>
             </ul>
 
-
             <h2 class="heading">101- IIRS Outreach Programme on Satellite Remote Sensing of Atmosphere</h2>
             <ul>
                 <li><a target="blank"
                         href="https://drive.google.com/file/d/10byrvWJl3yGfcspnvUb9ZWMDW1zUi6Ay/view?usp=sharing">Participated
                         Students</a></li>
             </ul>
-
 
             <h2 class="heading">1012- IIRS Outreach Programme on Applications of Satellite Altimetry for Inland Water
                 Bodies
@@ -640,7 +718,6 @@
                         href="https://drive.google.com/file/d/1S-_OKsKm_8luubeVMBxsuee0vpthHlBS/view?usp=sharing">Participated
                         Students</a></li>
             </ul>
-
 
             <h2 class="heading">1015th IIRS Outreach Programme</h2>
             <ul>
@@ -671,22 +748,22 @@
                         Brochure </a></li>
                 <li><a target="blank" href="">Participated Students</a></li>
             </ul>
-            <div class="popup-close-2">&times;</div>
+
+            <div class="popup-close-3">&times;</div>
         </div>
 
-
         <!--***************course 2023*******************  -->
-        <div class="toggle" id="toggle-3">
-            <div class="course" id="open-popup-btn-3">
+        <div class="toggle" id="toggle-4">
+            <div class="course" id="open-popup-btn-4">
                 <h1 class="top-heading">Courses Completed in 2023</h1>
             </div>
         </div>
-        <div class="popup-overlay-3"></div>
-        <div class="popup-3">
+        <div class="popup-overlay-4"></div>
+        <div class="popup-4">
 
             <h2 style="text-align: center">Will be Upload Soon</h2>
 
-            <div class="popup-close-3">&times;</div>
+            <div class="popup-close-4">&times;</div>
         </div>
 
 
@@ -715,6 +792,8 @@
         let closeButton2 = document.querySelector(".popup-close-2");
         let openbutton3 = document.querySelector("#open-popup-btn-3");
         let closeButton3 = document.querySelector(".popup-close-3");
+        let openbutton4 = document.querySelector("#open-popup-btn-4");
+        let closeButton4 = document.querySelector(".popup-close-4");
 
         openbutton.addEventListener("click", function () {
             document.body.classList.add("popup-active")
@@ -733,6 +812,12 @@
         })
         closeButton3.addEventListener("click", function () {
             document.body.classList.remove("popup-active-3")
+        })
+        openbutton4.addEventListener("click", function () {
+            document.body.classList.add("popup-active-4")
+        })
+        closeButton4.addEventListener("click", function () {
+            document.body.classList.remove("popup-active-4")
         })
     </script>
 </body>
