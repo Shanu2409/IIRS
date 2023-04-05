@@ -302,11 +302,9 @@ body.popup-active-4 .popup-overlay-4 {
     line-height: 1.5;
 }
 
-
-
-@media screen and (max-width: 705px) {
+@media screen and (max-width: 1245px) {
     * {
-        margin: 0 20px;
+        margin: 0 10px;
         padding: 0;
         box-sizing: border-box;
         /* background-color: #f3f3f3; */
@@ -322,7 +320,63 @@ body.popup-active-4 .popup-overlay-4 {
     .title {
         text-align: center;
         padding: 40px 0 0 0;
-        width: 600px;
+        /* width: 600px; */
+        width: auto;
+    }
+
+    .container {
+        padding: 5px 0;
+        width: 800px;
+    }
+
+    img {
+        width: 750px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        transition: 0.5s;
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    }
+
+    .cordinators {
+        font-size: 80%;
+    }
+
+    .pop {
+        position: static;
+        transform: none;
+        /* Any other styles you want to remove */
+    }
+
+    .title {
+        font-size: 150%;
+        text-align: center;
+        margin: auto;
+    }
+}
+
+
+
+@media screen and (max-width: 735px) {
+    * {
+        margin: 0 10px;
+        padding: 0;
+        box-sizing: border-box;
+        /* background-color: #f3f3f3; */
+    }
+
+    body {
+        background-color: #f3f3f3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title {
+        text-align: center;
+        padding: 40px 0 0 0;
+        /* width: 600px; */
+        width: auto;
     }
 
     .container {
@@ -331,7 +385,7 @@ body.popup-active-4 .popup-overlay-4 {
     }
 
     img {
-        width: 400px;
+        width: 575px;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -354,9 +408,73 @@ body.popup-active-4 .popup-overlay-4 {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 580px) {
+    * {
+        margin: 0 10px;
+        padding: 0;
+        box-sizing: border-box;
+        /* background-color: #f3f3f3; */
+    }
+
+    body {
+        background-color: #f3f3f3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title {
+        text-align: center;
+        padding: 40px 0 0 0;
+        /* width: 600px; */
+        width: auto;
+    }
+
+    .container {
+        padding: 5px 0;
+        width: 550px;
+    }
+
+    img {
+        width: 500px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        transition: 0.5s;
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    }
+
+    .cordinators {
+        font-size: 80%;
+    }
+
+    .pop {
+        position: static;
+        transform: none;
+        /* Any other styles you want to remove */
+    }
+
+    .title {
+        font-size: 110%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .title {
+        text-align: center;
+        padding: 40px 0 0 0;
+        margin: auto;
+    }
+
+    .container {
+        padding: 10px 0;
+        width: 375px;
+    }
+
     .heading {
         font-size: 110%;
+        text-align: center;
     }
 
     a {
@@ -369,10 +487,56 @@ body.popup-active-4 .popup-overlay-4 {
 
     .cordinators {
         font-size: 10px;
+        /* width: 00px; */
+        /* margin: 0 10px; */
     }
 
+
     img {
-        width: 200px;
+        width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        transition: 0.5s;
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    }
+}
+
+@media screen and (max-width: 420px) {
+
+    .title {
+        text-align: center;
+        padding: 40px 0 0 0;
+        margin: auto;
+    }
+
+    .container {
+        padding: 10px 0;
+        width: 275px;
+    }
+
+    .heading {
+        font-size: 110%;
+        text-align: center;
+    }
+
+    a {
+        font-size: 17px;
+    }
+
+    .pop {
+        font-size: 20px;
+    }
+
+    .cordinators {
+        font-size: 10px;
+        /* width: 00px; */
+        /* margin: 0 10px; */
+    }
+
+
+    img {
+        width: 250px;
         display: block;
         margin-left: auto;
         margin-right: auto;
