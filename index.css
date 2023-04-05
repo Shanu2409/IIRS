@@ -286,6 +286,22 @@ body.popup-active-4 .popup-overlay-4 {
     display: block;
 }
 
+.pop {
+    position: relative;
+    /* Set position of the pseudo-elements */
+    transition: 0.5s;
+}
+
+.pop:hover {
+    /* text-decoration: underline; */
+    transform: scale(1.2);
+    /* color: red; */
+}
+
+.cordinators {
+    line-height: 1.5;
+}
+
 @media screen and (max-width: 705px) {
     * {
         margin: 0 20px;
@@ -310,27 +326,21 @@ body.popup-active-4 .popup-overlay-4 {
     }
 
     img {
-        width: 560px;
+        width: 400px;
         display: block;
         margin-left: auto;
         margin-right: auto;
         transition: 0.5s;
         box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
     }
-}
 
-.pop {
-    position: relative;
-    /* Set position of the pseudo-elements */
-    transition: 0.5s;
-}
+    .cordinators {
+        font-size: 80%;
+    }
 
-.pop:hover {
-    /* text-decoration: underline; */
-    transform: scale(1.2);
-    /* color: red; */
-}
-
-.cordinators {
-    line-height: 1.5;
+    .pop {
+        position: static;
+        transform: none;
+        /* Any other styles you want to remove */
+    }
 }
