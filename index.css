@@ -302,6 +302,8 @@ body.popup-active-4 .popup-overlay-4 {
     line-height: 1.5;
 }
 
+
+
 @media screen and (max-width: 705px) {
     * {
         margin: 0 20px;
@@ -312,6 +314,9 @@ body.popup-active-4 .popup-overlay-4 {
 
     body {
         background-color: #f3f3f3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .title {
@@ -342,5 +347,36 @@ body.popup-active-4 .popup-overlay-4 {
         position: static;
         transform: none;
         /* Any other styles you want to remove */
+    }
+
+    .title {
+        font-size: 110%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .heading {
+        font-size: 110%;
+    }
+
+    a {
+        font-size: 17px;
+    }
+
+    .pop {
+        font-size: 20px;
+    }
+
+    .cordinators {
+        font-size: 10px;
+    }
+
+    img {
+        width: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        transition: 0.5s;
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
     }
 }
