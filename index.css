@@ -32,7 +32,7 @@ body {
 }
 
 img {
-    width: 1200px;
+    width: 1000px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -44,6 +44,8 @@ img {
 img:hover {
     scale: 1 1;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+    border: black solid 2px;
+
 }
 
 .heading {
