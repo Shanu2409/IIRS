@@ -120,12 +120,12 @@ h3 {
 }
 
 .popup .popup-close {
+    font-size: 45px;
     position: fixed;
     top: 10px;
-    right: 10px;
-    background: rgba(156, 156, 156, 0.8);
-
-    padding: 10px;
+    right: 20px;
+    /* background: red; */
+    padding: 2px;
     border-radius: 10px;
     cursor: pointer;
 }
@@ -169,12 +169,12 @@ body.popup-active .popup-overlay {
 }
 
 .popup-2 .popup-close-2 {
+    font-size: 45px;
     position: fixed;
     top: 10px;
-    right: 10px;
-    background: rgba(156, 156, 156, 0.8);
-
-    padding: 10px;
+    right: 20px;
+    /* background: red; */
+    padding: 2px;
     border-radius: 10px;
     cursor: pointer;
 }
@@ -218,12 +218,12 @@ body.popup-active-2 .popup-overlay-2 {
 }
 
 .popup-3 .popup-close-3 {
+    font-size: 45px;
     position: fixed;
     top: 10px;
-    right: 10px;
-    background: rgba(156, 156, 156, 0.8);
-
-    padding: 10px;
+    right: 20px;
+    /* background: red; */
+    padding: 2px;
     border-radius: 10px;
     cursor: pointer;
 }
@@ -269,12 +269,12 @@ body.popup-active-3 .popup-overlay-3 {
 }
 
 .popup-4 .popup-close-4 {
+    font-size: 45px;
     position: fixed;
     top: 10px;
-    right: 10px;
-    background: rgba(156, 156, 156, 0.8);
-
-    padding: 10px;
+    right: 20px;
+    /* background: red; */
+    padding: 2px;
     border-radius: 10px;
     cursor: pointer;
 }
