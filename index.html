@@ -144,7 +144,8 @@
                         <a target="blank" href="">Date: 14-Dec-2020 to 18-Dec-2020</a>
                     </li>
                     <li>
-                        <a target="blank" href="">Module/ Course Module/Course Coordinator: Dr. Shashi Kumar</a>
+                        <a target="blank" href="" class="">Module/ Course Module/Course Coordinator: Dr. Shashi
+                            Kumar</a>
                     </li>
                     <li>
                         <a target="blank"
@@ -575,7 +576,7 @@
             <br />
             <div class="cordinators">
 
-                <h3><strong>Mrs. JYOTSNA ANTHAL</strong></h3>
+                <text class="name">Mrs. JYOTSNA ANTHAL</text>
                 <h3>ASSISTANT PROFESSOR</h3>
                 <h3>INFORMATION TECHNOLOGY AND DATA SCIENCE DEPT.</h3>
                 <h3>COORDINATOR IIRS-ISRO OUTREACH PROGRAMME</h3>
@@ -602,26 +603,50 @@
 
         openbutton.addEventListener("click", function () {
             document.body.classList.add("popup-active");
+            openbutton2.classList.add("hidden")
+            openbutton3.classList.add("hidden")
+            openbutton4.classList.add("hidden")
         });
         closeButton.addEventListener("click", function () {
             document.body.classList.remove("popup-active");
+            openbutton2.classList.remove("hidden")
+            openbutton3.classList.remove("hidden")
+            openbutton4.classList.remove("hidden")
         });
         openbutton2.addEventListener("click", function () {
             document.body.classList.add("popup-active-2");
+            openbutton.classList.add("hidden")
+            openbutton3.classList.add("hidden")
+            openbutton4.classList.add("hidden")
         });
         closeButton2.addEventListener("click", function () {
+            openbutton.classList.remove("hidden")
+            openbutton3.classList.remove("hidden")
+            openbutton4.classList.remove("hidden")
             document.body.classList.remove("popup-active-2");
         });
         openbutton3.addEventListener("click", function () {
+            openbutton2.classList.add("hidden")
+            openbutton.classList.add("hidden")
+            openbutton4.classList.add("hidden")
             document.body.classList.add("popup-active-3");
         });
         closeButton3.addEventListener("click", function () {
+            openbutton2.classList.remove("hidden")
+            openbutton.classList.remove("hidden")
+            openbutton4.classList.remove("hidden")
             document.body.classList.remove("popup-active-3");
         });
         openbutton4.addEventListener("click", function () {
+            openbutton2.classList.add("hidden")
+            openbutton3.classList.add("hidden")
+            openbutton.classList.add("hidden")
             document.body.classList.add("popup-active-4");
         });
         closeButton4.addEventListener("click", function () {
+            openbutton2.classList.remove("hidden")
+            openbutton3.classList.remove("hidden")
+            openbutton.classList.remove("hidden")
             document.body.classList.remove("popup-active-4");
         });
     </script>
