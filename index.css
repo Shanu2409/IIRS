@@ -11,6 +11,7 @@
 
 body {
     /* background-color: rgb(211, 234, 255); */
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,6 +30,9 @@ body {
 .container {
     padding: 20px 0;
     width: 1200px;
+    border-bottom: 1px white solid;
+    border-top: 1px white solid;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8);
 }
 
 img {
@@ -87,7 +91,7 @@ h3 {
     text-align: center;
     padding: 40px 0 0 0;
     width: 1200px;
-    /* margin-bottom: 35px; */
+    margin-bottom: 35px;
 }
 
 /* course 2020 */
