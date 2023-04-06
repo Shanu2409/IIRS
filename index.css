@@ -353,7 +353,9 @@ body.popup-active-4 .popup-overlay-4 {
 
     .container {
         padding: 5px 0;
-        width: 800px;
+        width: 100%;
+        border: none;
+        box-shadow: none;
     }
 
     img {
@@ -407,7 +409,9 @@ body.popup-active-4 .popup-overlay-4 {
 
     .container {
         padding: 5px 0;
-        width: 600px;
+        width: 100%;
+        border: none;
+        box-shadow: none;
     }
 
     img {
@@ -458,7 +462,9 @@ body.popup-active-4 .popup-overlay-4 {
 
     .container {
         padding: 5px 0;
-        width: 550px;
+        border: none;
+        width: 100%;
+        box-shadow: none;
     }
 
     img {
@@ -495,7 +501,9 @@ body.popup-active-4 .popup-overlay-4 {
 
     .container {
         padding: 10px 0;
-        width: 375px;
+        width: 100%;
+        border: none;
+        box-shadow: none;
     }
 
     .heading {
@@ -538,7 +546,9 @@ body.popup-active-4 .popup-overlay-4 {
 
     .container {
         padding: 10px 0;
-        width: 275px;
+        width: 100%;
+        border: none;
+        box-shadow: none;
     }
 
     .heading {
